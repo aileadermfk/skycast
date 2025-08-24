@@ -1,0 +1,12 @@
+
+{
+  "name": "SkyCast Pro Ultimate",
+  "short_name": "SkyCast",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#10131a",
+  "theme_color": "#4facfe",
+  "icons": [
+    { "src": "assets/logo.svg", "sizes": "192x192", "type": "image/svg+xml" }
+  ]
+}
