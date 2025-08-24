@@ -1,0 +1,2 @@
+self.addEventListener('install', e=>{ e.waitUntil(caches.open('skycast-v1').then(c=>c.addAll(['./','./index.html','./css/styles.css','./js/app.js','./manifest.json','./assets/logo.svg']))); });
+self.addEventListener('fetch', e=>{ e.respondWith(caches.match(e.request).then(r=> r || fetch(e.request))); });
